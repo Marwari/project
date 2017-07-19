@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mentor Form Submition</title>
+</head>
+<style type="text/css">
+	body{
+		background: #efe5d0 url(images/background.gif) top left;
+		font-family: Verdana, Helvetica, Arial, sans-serif;
+		margin: 20px;
+	}
+	table{
+		border: thin dotted #7e7e7e;
+		padding: 10px;
+	}
+	th{
+		text-align: right;
+		vertical-align: top;
+		padding-top: 2px;
+		padding-right: 10px;
+	}
+	td{
+		vertical-align: top;
+		padding-bottom: 15px;
+	}
+	p:first-letter{
+		font-size: 3em;
+		font-style: italic;
+	}
+</style>
+
+<body>
+<h1 align="center"><p>Fill your mentor form: </h1></p>
+<hr>
+<form action="" method="POST">
+<table>
+	<tr>
+	<th>
+		Name: </th>
+		<td><input type="text" name="fullname"/></td>
+		</tr>
+		<br>
+	<tr>
+		<th>Father Name: </th>
+		<td><input type="text" name="fullname"/></td>
+		</tr>
+		<br>
+	<tr>
+		<th>Sex: </th>
+			<td><input type="radio" name="sex" value="Male">Male</input></td>
+			<td><input type="radio" name="sex" value="Female">Female</input></td></tr>
+			<br>
+	<tr>
+		<th>Prefered Languages: </th>
+			<td><input type="checkbox" name="Languages" value="English">English</input></td>
+			<td><input type="checkbox" name="Languages" value="Hindi">Hindi</input></td>
+			<td><input type="checkbox" name="Languages" value="Gujrati">Gujrati</input></td>
+			<td><input type="checkbox" name="Languages" value="Bengali">Bengali</input></td>
+			</tr>
+			<br>
+	<tr>
+		<th>Address: </th>
+		<td><textarea name="Address" rows="10" cols="18">Type Full Address Here... </textarea></td>
+		</tr><br>
+	<tr>
+		<th>Select your state: </th>
+		<td><select name="State">
+		<option value="Rajasthan">Rajasthan</option>
+		<option value="Gujrat">Gujrat</option>
+		<option value="No Where">Koi Mera Ghar Nahi</option>
+		</select></td>
+		</tr><br>
+	<tr><th>--></th>
+	<td><input type="Submit"/></td>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
